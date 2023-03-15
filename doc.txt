@@ -1,0 +1,24 @@
+Api part just understand this.
+api stands for application programming interface.
+it provides an interface for applications to interacte.
+so lets say we use weather API.
+
+load/use weather details -> js code(passing parameters and calling api) -> eg: weather API(weather details)
+
+future prospect for the project:
+I am thinking of creating functionalities like, delete and update details and can add destination details also.
+
+mapty details:
+it is a website developed using html css and js, where u can keep your workout details.
+when you open this website it asks for accessing location to get current location, when you click on the 
+map over a box appears on the left part and there u can fill your work out details.
+
+your workout details are stored in browser's local storage.It is soted using local storage api so that you can see
+workout details at a glance.
+to load this map we have used one open js library leaflet and as I have said earlier we have current location
+using geolocation API.
+
+result we have kept workout details:
+running: distance, time, speed.
+cycling: elevation gain, duration, distance.
+
